@@ -797,9 +797,9 @@ else:
                 p_str2 = f"{p_val2:.2e}" if p_val2 < 0.001 else f"{p_val2:.4f}"
 
             if chisq_res2["p_value"] < 0.05:
-                st.success(f"✅ Statistically significant difference in 1-year survival rate between {color_by.lower()}s (p = {p_str2} on degrees of freedom {chisq_res2['degrees_freedom']})")
+                st.success(f"✅ Statistically significant difference in 1-year survival status between {color_by.lower()}s (p = {p_str2} on degrees of freedom {chisq_res2['degrees_freedom']})")
             else:
-                st.info(f"ℹ️ No statistically significant difference in 1-year survival rate between {color_by.lower()}s (p = {p_str2} on degrees of freedom {chisq_res2['degrees_freedom']})")
+                st.info(f"ℹ️ No statistically significant difference in 1-year survival status between {color_by.lower()}s (p = {p_str2} on degrees of freedom {chisq_res2['degrees_freedom']})")
 
 
 
