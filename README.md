@@ -16,12 +16,13 @@ Interactive **Streamlit** app to explore breast cancer survival using SEER (2012
 ## Features
 
 - Sidebar filters: **Race/Ethnicity**, **Age group**, **Stage**, **Grade**, **Histology**
-- **Kaplan–Meier** curves per group with shaded 95% CI bands
-- **Trend view**: recent years 1-year survival lines + CI bands
+- **Kaplan–Meier** curves per group with shaded 95% CI bands + chisq test on survival months
+- **Trend view**: recent years 1-year survival lines with CI bands + chisq test on 1-year survival status
 
 ## Data
 
 SEER website: https://seer.cancer.gov/
+
 They collected the data based on End Results data from a series of hospital registries and one population-based registry.
 
 > ⚠️ Follow SEER data-use terms; do **not** commit PHI/PII.
