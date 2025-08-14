@@ -51,12 +51,14 @@ streamlit run app.py
 ```
 
 ## Project Structure
-.
+
+```bash
 ├─ app.py                 # Streamlit app
 ├─ cleaned_SEER.csv
 ├─ data_clean_exploration.ipynb                 # Data clean process
 ├─ requirements.txt
 └─ README.md
+```
 
 # Acknowledgements
 Built with streamlit, plotly, scipy, pandas, numpy and lifelines
