@@ -61,5 +61,5 @@ streamlit run app.py
 └─ README.md
 ```
 
-# Acknowledgements
+## Acknowledgements
 Built with streamlit, plotly, scipy, pandas, numpy and lifelines
