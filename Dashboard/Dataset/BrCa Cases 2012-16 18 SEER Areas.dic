@@ -1,0 +1,41 @@
+[System]
+Output filename=Z:\Statistics Program\Xinan\BrCa Cases 18 SEER Areas.txt
+Matrix filename=Breast Cancer Cases 18 Areas Matrix-1
+Database name=Incidence - SEER 18 Regs Research Data + Hurricane Katrina Impacted Louisiana Cases, Nov 2018 Sub (1975-2016 varying) - Linked To County Attributes - Total U.S., 1969-2017 Counties
+
+[Session Options]
+Type=Case Listing
+
+[Export Options]
+GZipped=false
+Variable format=labels
+File format=DOS/Windows
+Field delimiter=tab
+Missing character=space
+Fields with delimiter in quotes=true
+Remove thousands separators=false
+Variable names included=false
+Column Variables as Stats=false
+
+[Variables]
+Var1Name=Patient ID
+Var1DisplayType=Formatted
+Var2Name=Year of diagnosis
+Var2DisplayType=Formatted
+Var3Name=Age at diagnosis
+Var3DisplayType=Formatted
+Var4Name=Race recode (W, B, AI, API)
+Var4DisplayType=Formatted
+Var5Name=Origin recode NHIA (Hispanic, Non-Hisp)
+Var5DisplayType=Formatted
+Var6Name=Histologic Type ICD-O-3
+Var6DisplayType=Formatted
+Var7Name=SEER Combined Summary Stage 2000 (2004+)
+Var7DisplayType=Formatted
+Var8Name=Grade
+Var8DisplayType=Formatted
+Var9Name=Survival months
+Var9DisplayType=Formatted
+Var10Name=Vital status recode (study cutoff used)
+Var10DisplayType=Formatted
+
